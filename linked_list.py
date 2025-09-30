@@ -10,8 +10,10 @@ class LinkedList:
     
     def insert(self,value,index):
         current=self.head
+
         for i in range(index):
             current=current.next
+            
         new_node=Node(value)
         next_node=current.next
         current.next=new_node
@@ -20,11 +22,11 @@ class LinkedList:
     
     def delete(self,index):
         current=self.head
-        i=0
-        while i<index:
+
+        for i in range(index):
             before=current
             current=current.next
-            i+=1
+
         before.next=current.next
         self.length-=1
         
