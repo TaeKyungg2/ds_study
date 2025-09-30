@@ -4,6 +4,7 @@ class Stack:
 
     def push(self):
         pass
+    
     def helpKr(self):
         print("""스택 자료구조를 다루는 클래스입니다. 
 스택은, 가장 최근에 들어온 아이템을 내보내는 형식입니다.

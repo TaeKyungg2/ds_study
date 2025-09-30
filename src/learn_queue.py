@@ -1,4 +1,4 @@
-class queue:
+class Queue:
     def __init__(self,len):
         self.len=len
         self.items=[None]*len

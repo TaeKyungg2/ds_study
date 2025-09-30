@@ -1,1 +1,1 @@
-from linked_list import *
+from src.linked_list import *
